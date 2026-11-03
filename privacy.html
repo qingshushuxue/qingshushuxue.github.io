@@ -1,14 +1,94 @@
 <!doctype html>
-<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="清疏数学商店准备版本隐私政策候选稿，尚未生效，待提供者确认。"><meta name="robots" content="noindex,nofollow"><meta name="color-scheme" content="light dark"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><title>隐私政策发布前审阅稿 · 清疏数学</title><link rel="icon" type="image/svg+xml" href="assets/mark.svg"><link rel="stylesheet" href="assets/site.css"></head>
-<body><a class="skip-link" href="#main">跳至正文</a><div class="site-shell"><header class="site-header"><a class="brand" href="index.html" aria-label="清疏数学，首页"><img src="assets/mark.svg" width="34" height="34" alt=""><span>清疏数学<small>让表达回到数学本身</small></span></a><nav aria-label="主导航"><a href="index.html">首页</a><a href="privacy.html" aria-current="page">隐私政策</a><a href="support.html">支持与联系</a></nav></header>
-<main id="main"><section class="page-heading policy-heading"><p class="eyebrow">PRIVACY / 发布前审阅稿</p><h1>隐私说明，<br>也应写得清楚。</h1><p class="page-lead">清疏数学的数学编辑器 · 商店渠道准备版本</p></section><section class="review-banner" aria-labelledby="review-title"><div class="review-label">尚未生效</div><div><h2 id="review-title">这是待作者审核的隐私政策候选稿</h2><p>整理日期：2026年11月3日，适用于 2.0.16 商店渠道准备版本。软件尚未上架。本稿未设生效日期，不表示已经完成 App Store 隐私申报或 Apple 审核。</p><p>正式发布前，提供者仍需确认公开网址、在线识别服务的数据保留及账号关联、支持邮件与网站托管的处理规则，并将说明与最终签名版本核对。</p></div></section><div class="policy-layout"><aside class="policy-toc"><p class="eyebrow">本页目录</p><nav aria-label="隐私政策目录"><a href="#policy-1"><span>01</span>提供者与适用范围</a><a href="#policy-2"><span>02</span>本机编辑、计算与绘图</a><a href="#policy-3"><span>03</span>本机文字提取</a><a href="#policy-4"><span>04</span>可选在线公式识别</a><a href="#policy-5"><span>05</span>API密钥与设置</a><a href="#policy-6"><span>06</span>Apple购买与恢复</a><a href="#policy-7"><span>07</span>文件、剪贴板及系统权限</a><a href="#policy-8"><span>08</span>保留、删除与撤回</a><a href="#policy-9"><span>09</span>政策更新与联系</a><a href="#site-data"><span>10</span>本静态网页的边界</a></nav></aside><article class="policy-content"><h2 id="policy-1">提供者与适用范围</h2><p>软件所属：重庆清疏知与教育咨询有限公司。隐私或使用问题可联系作者：<a href="mailto:937821418@qq.com">937821418@qq.com</a>。本稿说明Mac App Store渠道的处理方式；站外版的作者激活码流程不属于此渠道。</p>
-<h2 id="policy-2">本机编辑、计算与绘图</h2><p>公式、LaTeX源码、绘图、计算结果、工作簿、自动保存、公式历史、自定义键盘和显示偏好用于完成编辑、保存及恢复。资料保存在您选择的文件、本机应用数据或网页视图本机存储中。商店版计算组件与TeX编译组件随软件提供，在本机处理，不需要向作者上传公式或另外安装MacTeX。首方源码审计未发现编辑内容自动上传、广告或使用统计上传的实现；这不是对任意第三方服务行为的保证。</p><p>您选择的云盘目录、备份软件或主动分享的邮件、聊天应用可能另行同步这些文件，其处理规则由相应服务决定。</p>
-<h2 id="policy-3">本机文字提取</h2><p>本机文字提取使用Apple Vision处理您选择的图片或主动截取的区域。该操作与在线公式识别分开，不由本功能向识别服务上传图片。本机文字提取不能保证还原二维公式结构。</p>
-<h2 id="policy-4">可选在线公式识别</h2><p>只有您预览图片、核对接收服务与模型、勾选本次发送同意并点击发送后，软件才会发起在线识别。发送内容为<strong>完整选定图片</strong>、固定公式转写提示和选定模型；HTTPS请求使用您提供的API密钥。请求可能包含图片上的姓名、文字或其他信息，请在预览时确认内容。普通公式编辑、计算及本机绘图不依赖这项发送。</p><p>准备版本预设接收地址为<code>api.moonshot.cn</code>，您也可以配置兼容HTTPS服务。图片、更换服务、模型或密钥以及重新打开识别窗口，都会重置同意；软件拒绝缺失或已过期的同意。网络请求拒绝重定向，不使用持久Cookie或系统凭据缓存。</p><p>默认提供者的适用说明见<a href="https://platform.kimi.com/docs/agreement/userprivacy">Kimi开放平台隐私政策</a>及<a href="https://www.kimi.com/en/help/kimi-api/api-data-security">API数据处理说明</a>。API说明区分了训练用途，但不能据此承诺所有请求日志、账号关联和其他提供者均为零保留。正式发布前仍需核对适用约定；本软件不会对您自行配置的全部服务作统一的保存期限或训练用途保证。第三方已收到资料的删除请求需向实际提供者提出。</p>
-<h2 id="policy-5">API密钥与设置</h2><p>API密钥保存在macOS钥匙串，按服务主机名及端口区分；端点和模型名称保存在本机设置中。普通偏好和工作簿不保存该密钥。您可以在识别设置中删除对应的本机密钥。删除本机项目不会撤销服务账号签发的密钥，也不会删除已经到达提供者的内容；撤销需在提供者处操作。</p>
-<h2 id="policy-6">Apple购买与恢复</h2><p>商店渠道准备版本接入Apple StoreKit，用于一次性非消耗型购买、恢复及权限状态核验。软件在本机检查Apple验证的商品与交易权限，不向作者服务器上传交易凭证，不生成站外授权设备码，也不要求作者激活码。软件不接收您的银行卡等支付资料；Apple付款和账号数据适用Apple的规则。准备版本尚未配置真实商品及价格，也未完成真实购买验收，此说明不表示商品已经可购买。</p>
-<h2 id="policy-7">文件、剪贴板及系统权限</h2><p>复制粘贴、导入、导出和打开文件由您的操作触发。软件可保留本机文件访问授权，以便下次继续保存选定工作簿。截图仅在您主动调用后取得所选区域，系统权限由macOS管理。您将内容粘贴到其他应用后，对方按其规则处理。</p>
-<h2 id="policy-8">保留、删除与撤回</h2><p>工作簿由您保存及删除；关闭工作簿、移到公式历史回收站或卸载应用并不等于清除全部副本。自动保存、历史归档和“最近关闭”用于恢复内容，可能继续保留在本机；目前历史回收站是可恢复的移除，不能当作永久删除。云盘、备份及导出副本需在对应位置另行管理。如需清除本机恢复资料，可联系作者获取针对当前版本的操作说明，先核对需要保留的文件。作者无法直接访问或远程删除您的本机文件。</p><p>您可以停止在线识别、不再同意发送、删除本机密钥，或在macOS撤销截图等系统权限。这些操作阻止相应的后续使用，不会收回已发送的请求。软件没有作者账号注册与作者云端资料库。若您主动通过邮件请求支持，作者将接收您发送的邮件和附件；请仅提供排查所需内容，不要发送API密钥、支付凭据或无关隐私资料。正式发布前，支持邮件的保留与删除规则仍须由提供者确认。</p>
-<h2 id="policy-9">政策更新与联系</h2><p>若正式版本的功能或数据处理发生变化，应同步更新公开政策、应用内说明及商店隐私回答。疑问或删除请求可发送至<a href="mailto:937821418@qq.com">937821418@qq.com</a>。<a href="support.html">支持与联系页面</a>列出反馈信息及准备状态。</p>
-<h2 id="site-data">本静态网页的边界</h2><p>这份静态网页文件不包含脚本追踪、表单、远程字体、分析工具或第三方嵌入。点击联系邮箱会由您主动调用邮件应用；页面不会自动发送附件。</p><p>通过 GitHub Pages 访问本网站时，无论访问者是否登录 GitHub，GitHub 都会为安全目的记录并保存访问者的 IP 地址。参见 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" rel="external">GitHub Pages 数据收集说明</a>及 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="external">GitHub 隐私声明</a>。这些链接仅在您主动点击时打开。</p><p>本稿仍待作者审核。正式政策发布前，提供者应核对 GitHub Pages 及支持邮箱适用的数据处理、保留与删除规则；本页不作“托管平台不留日志”或“所有服务零保留”承诺。</p></article></div></main>
-<footer class="site-footer"><div><strong>清疏数学</strong><p>软件所属：重庆清疏知与教育咨询有限公司</p></div><div><a href="mailto:937821418@qq.com">937821418@qq.com</a><p>商店版准备中 · 资料整理于 2026年11月3日</p></div><p class="footer-note">本页为发布候选资料，未表示软件已上架、商品可购买或隐私政策已生效。</p></footer></div></body></html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="清疏知与数学编辑器激活码版的隐私说明，介绍本机工作簿、设备授权、可选图片识别、资料管理和网站访问。">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>隐私说明 · 清疏知与</title>
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳至正文</a>
+<div class="site-shell">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="清疏知与，首页"><img src="assets/mark.svg" width="34" height="34" alt=""><span>清疏知与<small>数学表达 · 专注于思考</small></span></a>
+    <nav aria-label="主导航"><a href="index.html#features">功能概览</a><a href="support.html">使用与激活</a><a href="privacy.html" aria-current="page">隐私说明</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-heading policy-heading">
+      <p class="eyebrow">PRIVACY / 隐私说明</p>
+      <h1>把资料的去向，<br>说明白。</h1>
+      <p class="page-lead">适用于数学编辑器激活码版。更新日期：2026年11月3日。</p>
+    </section>
+    <div class="policy-layout">
+      <aside class="policy-toc">
+        <p class="eyebrow">本页目录</p>
+        <nav aria-label="隐私说明目录">
+          <a href="#provider"><span>01</span>提供者与联系</a>
+          <a href="#local-data"><span>02</span>本机编辑与资料</a>
+          <a href="#activation"><span>03</span>激活码与授权服务</a>
+          <a href="#recognition"><span>04</span>图片与公式识别</a>
+          <a href="#credentials"><span>05</span>密钥与系统权限</a>
+          <a href="#files"><span>06</span>文件与剪贴板</a>
+          <a href="#data-management"><span>07</span>资料保存与管理</a>
+          <a href="#support"><span>08</span>邮件与使用支持</a>
+          <a href="#website"><span>09</span>网站访问</a>
+          <a href="#updates"><span>10</span>说明更新</a>
+        </nav>
+      </aside>
+      <article class="policy-content">
+        <h2 id="provider">提供者与联系</h2>
+        <p>清疏知与网站与数学编辑器由<strong>重庆清疏知与教育咨询有限公司</strong>提供。本页介绍激活码版在公式编辑、计算、绘图、设备授权、图片识别及网站访问中的资料处理方式。</p>
+        <p>隐私、授权与使用问题可联系作者：<a href="mailto:937821418@qq.com">937821418@qq.com</a>。具体激活步骤见<a href="support.html#activation">使用与激活</a>。</p>
+
+        <h2 id="local-data">本机编辑与资料</h2>
+        <p>公式、LaTeX 源码、计算结果和绘图内容在您的 Mac 上编辑与处理。工作簿保存在您选择的位置；自动保存、公式历史、最近关闭记录、自定义键盘、公式库与显示偏好保存在本机应用资料或网页视图的本机存储中，用于继续编辑和恢复内容。</p>
+        <p>符号计算使用随应用提供的本机数学组件。LaTeX 绘图通过您安装的 MacTeX / TeX Live 在本机编译。选择 iCloud、其他云盘或备份目录保存文件时，相应服务依据自己的规则同步和保存这些文件。</p>
+
+        <h2 id="activation">激活码与授权服务</h2>
+        <p>设备码由本机设备标识的摘要生成，用于将授权与当前 Mac 关联。您复制设备码并提供给作者后，作者核实订单，再签发对应的激活码或 <code>.qingshu-license</code> 授权文件。应用在本机验证并保存授权，便于后续启动与离线使用。</p>
+        <p>激活服务涉及您主动提供的设备码、授权称呼、联系资料及订单核对信息。作者在本机授权管理工具中保存相关客户与授权记录，例如设备码、授权编号、签发日期、收款渠道、金额、币种及交易编号，用于核款、查询、补发和换机支持。</p>
+        <p>付款通过您与作者约定的收款渠道进行，相应平台依据自身规则处理支付资料。您可以通过联系邮箱沟通授权资料的查询、更正、删除和留存安排。</p>
+
+        <h2 id="recognition">图片与公式识别</h2>
+        <p><strong>本机文字提取</strong>使用 Apple Vision，在 Mac 上提取您选择的图片或截图中的普通文字。<strong>在线公式识别</strong>将图片转写为 LaTeX，接收方是识别窗口中显示的服务主机和模型。</p>
+        <p>在线识别时，您先预览图片、核对接收服务与模型、勾选本次发送同意，再点击发送。请求通过 HTTPS 传送<strong>完整选定图片</strong>、公式转写提示和模型名称，并使用您提供的 API 密钥进行服务身份验证。图片中包含的文字、姓名等信息也属于本次传送内容，适合在预览时一并检查。</p>
+        <p>当前默认服务地址为 <code>api.moonshot.cn</code>，您也可以设置兼容的 HTTPS 图像输入服务。更换图片、服务、模型或密钥后，重新核对本次发送同意；每次发送对应您确认的图片与服务。</p>
+        <p>接收方依据自己的服务约定处理图片、请求日志、账号关联和数据权利请求。默认服务的具体规则可查看 <a href="https://platform.kimi.com/docs/agreement/userprivacy" rel="external">Kimi 开放平台隐私政策</a>及 <a href="https://www.kimi.com/en/help/kimi-api/api-data-security" rel="external">API 数据处理说明</a>。使用其他服务时，请查看该接收方的适用规则。</p>
+
+        <h2 id="credentials">密钥与系统权限</h2>
+        <p>识别服务的 API 密钥保存在 macOS 钥匙串，按服务主机名与端口区分；服务地址和模型名称保存在本机设置中。密钥通过独立凭据入口管理，公式与工作簿导出使用各自的内容格式。</p>
+        <p>您可以在识别设置中删除对应的本机密钥；服务账号中的密钥管理与撤销，可在服务提供者的账号页面办理。截图等系统权限由 macOS 管理，您可以在“系统设置 → 隐私与安全性”中调整。</p>
+
+        <h2 id="files">文件与剪贴板</h2>
+        <p>打开、保存、导入、导出、复制及粘贴由您的操作触发。应用可保留您选择文件的访问授权，以便继续保存该工作簿。主动截图时，所选屏幕区域用于本次文字提取或图片识别。</p>
+        <p>将公式、图片、源码或工作簿粘贴和分享给其他应用后，接收内容由对应应用或服务按其规则处理。导出文件可包含用于再次编辑的公式源码元数据，分享前可以按用途选择格式并检查内容。</p>
+
+        <h2 id="data-management">资料保存与管理</h2>
+        <p>您可以在各自保存位置管理工作簿、导出文件、云盘副本与备份。公式历史、最近关闭记录和回收站为恢复内容保留资料；需要整理本机自动保存和恢复资料时，可联系作者获取对应版本的操作方式，并先保存准备继续使用的文档。</p>
+        <p>您可以通过识别窗口管理每次发送同意、删除本机密钥，并通过 macOS 调整系统权限。已由在线识别服务接收的资料，其查询、更正与删除按该接收方的规则办理；作者接收到的激活与支持资料，可通过联系邮箱沟通具体处理方式。</p>
+
+        <h2 id="support">邮件与使用支持</h2>
+        <p>点击联系邮箱会打开您使用的邮件应用。邮件发送和保存由相关邮箱服务处理，作者接收您主动发送的内容，用于沟通激活、文件恢复及使用支持。</p>
+        <p>授权记录用于后续查询与补发，支持邮件及附件用于跟进您提出的问题。您可发送与当前事项相关的必要资料，并通过 <a href="mailto:937821418@qq.com">937821418@qq.com</a>沟通资料的查询、更正、删除及留存安排。</p>
+
+        <h2 id="website">网站访问</h2>
+        <p>本网站使用静态 HTML、CSS 和本地图片展示内容，由 GitHub Pages 托管。浏览器加载网站页面与资源以呈现内容；联系邮箱和第三方说明链接在您点击后打开。</p>
+        <p>GitHub 会为网站安全记录并保存访问者的 IP 地址，这项处理适用于所有访问者。详情见 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" rel="external">GitHub Pages 数据收集说明</a>与 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="external">GitHub 隐私声明</a>。</p>
+
+        <h2 id="updates">说明更新</h2>
+        <p>软件功能、授权流程或数据处理方式调整时，本页会相应更新，并标注更新日期。您可以通过网站阅读当前说明，也可以联系作者了解激活码版的具体资料处理安排。</p>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div><strong>清疏知与</strong><p>重庆清疏知与教育咨询有限公司</p></div>
+    <div><a href="mailto:937821418@qq.com">937821418@qq.com</a><p>数学表达 · 专注于思考</p></div>
+    <p class="footer-note">面向 Apple 芯片 Mac · 公式编辑 / 符号计算 / LaTeX 绘图</p>
+  </footer>
+</div>
+</body>
+</html>
